@@ -1,2 +1,2 @@
-# dise-o-adaptable
+# diseno-adaptable
 Repo Proyecto de desarrollo web
