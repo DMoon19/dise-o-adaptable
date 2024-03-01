@@ -1,2 +1,2 @@
 # diseno-adaptable
-Repo Proyecto de desarrollo web
+Repo Proyecto de desarrollo web.
