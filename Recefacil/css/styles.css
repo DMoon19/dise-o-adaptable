@@ -95,8 +95,8 @@ top: 65px;
 }
 .buscar{
   position: absolute;
-  top: 205px;
-  right: 38px;
+  top: 204px;
+  left: 314px;
   z-index: 4;
 }
 .filtrar{
@@ -169,11 +169,14 @@ div.content img{
 
 .menu{
   background:rgb(0, 0, 0);
-  position: absolute;
+  position: relative;
 width: 375px;
 height: 77px;
 left: calc(50% - 375px/2);
-bottom: 0px;
+top: 138px;
+}
+.m2{
+  top:105px
 }
 .menu nav{
   
