@@ -65,7 +65,7 @@ top: 65px;
 .items{
   display:grid;
   grid-auto-flow:column;
-  grid-auto-columns:10%;
+  grid-auto-columns:13%;
   position: relative;
   margin-left: 24px;
   top:120px;
@@ -112,7 +112,7 @@ top: 65px;
   top: 208px;
   height: 40px;
   width: 324px;
-  background:rgba(255, 221, 177, 0.373);
+  background:rgb(255, 239, 219);
   z-index: 3;
 }
 .main{
@@ -137,10 +137,14 @@ div.content{
   position: relative;
   margin-top:-18px;
   margin-bottom: 32px;
-  width: 327px;
+  padding-left: 1px;
+  padding-right: 1px;
+  justify-items: center;
+  align-items: center;
+  width: 326px;
   height: 182px;
   border-radius: 8px;
-  background: #c1f8ff81;
+  background: rgb(193, 248, 255);
 }
 div.content img{
   position: relative;
@@ -165,9 +169,6 @@ div.content img{
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-}
-.noticias{
-  background:magenta;
 }
 .menu{
   background:rgb(0, 0, 0);
