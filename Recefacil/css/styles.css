@@ -29,6 +29,11 @@ text-transform: capitalize;
 
 color: #000000;
 }
+.t2{
+  margin: 0;
+  top: 112px;
+  width: 300px;
+}
 .icon{
 /* Iconos perfil */
 
@@ -154,6 +159,22 @@ div.content{
   border-radius: 8px;
   background: rgb(193, 248, 255);
 }
+.cont2{
+  position: absolute;
+  top: 149px;
+}
+.cont3{
+  position: absolute;
+  top: 54px;
+
+
+}
+.font{
+  font-family: 'Tw Cen MT';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+}
 div.content img{
   position: relative;
   top: 4px;
@@ -169,14 +190,13 @@ div.content img{
 
 .menu{
   background:rgb(0, 0, 0);
-  position: relative;
+  position: absolute;
 width: 375px;
 height: 77px;
 left: calc(50% - 375px/2);
-top: 138px;
 }
 .m2{
-  top:105px
+  top:737px
 }
 .menu nav{
   
@@ -216,14 +236,13 @@ position: absolute;
 width: 32px;
 height: 32px;
 left: 24px;
-top: 60px;
+top: 62px;
 }
 .main2{
   position: relative;
-  top: 112px;
   left: 24px;
   width: 327px;
-  height: 630px;
+  height: 730px;
   text-align: left;
   font-family: 'Tw Cen MT';
   font-style: normal;
@@ -255,4 +274,39 @@ div.content2 img{
   padding-right: 2.5px;
 
   border-radius: 8px;
+}
+.publi{
+  position: absolute;
+  top: 670px;
+  left: 310px;
+
+}
+.publi svg{
+  width: 64px;
+  height: 64px;
+}
+.inpu{
+  width: 327px;
+}
+#misi{
+  width: 375px;
+  height: 812px;
+  margin-top:-8px;
+  margin-left:-8px;
+  background:rgb(243, 243, 243);
+  opacity: 100%;
+  border-radius:50px;
+}
+
+#fade{
+  width: 375px;
+  height: 812px;
+  margin-top:-8px;
+  margin-left:-8px;
+  background:rgb(243, 243, 243);
+  opacity: 100%;
+  border-radius:50px;
+  display: flex;
+  align-items: center;
+  
 }
