@@ -1,26 +1,32 @@
 #home{
-  width: 375px;
-  height: 812px;
   background:url(https://res.cloudinary.com/dhchnmb6i/image/upload/v1710344249/xhjioegnpxvozjs2gyqd.png);
-  background:rgb(255, 188, 188);
-  margin-top: -8px;
-  margin-left: -8px;
+  background:rgb(255, 255, 255);
+  margin:0 ;
   opacity: 100%;
-  border-radius:50px;
 }
+
+*{
+  margin: 0;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
 .titulo{
 /* Hola Xaca */
 
 position: absolute;
-width: 112px;
-height: 15px;
-left: 23px;
-top: 54px;
+width: 216px;
+height: 16px;
+left: 88px;
+top: 60px;
 
 font-family: 'Tw Cen MT';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 36px;
 line-height: 40px;
 /* or 167% */
 display: flex;
@@ -29,11 +35,7 @@ text-transform: capitalize;
 
 color: #000000;
 }
-.t2{
-  margin: 0;
-  top: 112px;
-  width: 300px;
-}
+
 .icon{
 /* Iconos perfil */
 
@@ -47,9 +49,10 @@ gap: 8px;
 position: absolute;
 width: auto;
 height: auto;
-left: 272px;
-top: 60px;
+left: 880px;
+top: 48px;
 }
+
 .icon2{
 /* Iconos perfil */
 
@@ -62,32 +65,36 @@ gap: 8px;
 position: absolute;
 width: auto;
 height: auto;
-left: 321px;
-top: 65px;
+left: 936px;
+top: 52px;
 }
+
 .items{
+  left: 48px;
   display:grid;
   grid-auto-flow:column;
-  grid-auto-columns:11%;
-  position: relative;
+  grid-auto-columns:10%;
+  position: absolute;
   margin-left: 24px;
   margin-right: 24px;
-  top:120px;
-  column-gap: 38px;
+  top: 105px;
+  column-gap: 20px;
   overflow-x: scroll;
   white-space: nowrap;
 }
+
 .items a {
   margin-left: auto;
   margin-right: auto;
-  display: inline-block;
   color: white;
   text-align: center;
   text-decoration: none;
 }
+
 .items a:hover {
-  background-color: #777;
+  background-color: #141414;
 }
+
 .item-name{
   color: #000000;
  text-align: center;
@@ -95,21 +102,24 @@ top: 65px;
   font-family: 'Tw Cen MT';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 25px;
 }
+
 .buscar{
   position: absolute;
-  top: 204px;
-  left: 314px;
+  top: 200px;
+  left: 940px;
   z-index: 4;
 }
+
 .filtrar{
   position: absolute;
-  top: 200px;
-  left: 38px;
+  top: 196px;
+  left: 60px;
   z-index: 4;
 }
+
 .buscador input{
   justify-content: center;
   align-items: center;
@@ -122,81 +132,98 @@ top: 65px;
   font-size: 18px;
   line-height: 40px;
 
-  margin-left: 24px;
+  left: 48px;
   position: absolute;
-  top: 192px;
+  top: 188px;
   height: 40px;
-  width: 320px;
+  width: 928px;
   background:rgb(255, 239, 219);
   z-index: 3;
 }
+
 .main{
-  position: relative;
-  top: 160px;
-  left: 24px;
-  width: 327px;
-  height: 540px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  position: absolute;
+  top: 272px;
+  left: 68px;
+  border-radius: 24px;
+  width: 900px;
+  height: 900px;
   text-align: center;
   font-family: 'Tw Cen MT';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  background: #754e4e9f;
+  font-size: 40px;
+  background: #8383839f;
   overflow-y:scroll;
   white-space: nowrap;
 }
+
 .main h3{
   text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 46px;
 }
+
+.main h4{
+  text-align: right;
+  margin-right: 25px;
+  margin-top: 15px;
+  font-size: 36px;
+  color: #3a3a3a;
+}
+
 div.content{
-  position: relative;
-  margin-top:-18px;
-  margin-bottom: 32px;
+  top: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
   justify-items: center;
   align-items: center;
-  width: 327px;
+  width: 370px;
   height: 182px;
   border-radius: 8px;
-  background: rgb(193, 248, 255);
+  background: rgb(255, 255, 255);
 }
-.cont2{
-  position: absolute;
-  top: 149px;
-}
-.cont3{
-  position: absolute;
-  top: 54px;
 
-
-}
-.font{
-  font-family: 'Tw Cen MT';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-}
 div.content img{
   position: relative;
-  top: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
+  top: -5px;
+  
 
-  width: 318px;
-  height: 131px;
+  width: 360px;
+  height: 140px;
   border-radius: 8px;
   justify-content: center;
   align-items: center;
 }
 
+.cont2{
+  position: absolute;
+  top: 30px;
+  border-radius: 30px;
+}
+
+.cont3{
+  position: absolute;
+  top: 30px;
+  border-radius: 30px;
+}
+
 .menu{
   background:rgb(0, 0, 0);
   position: absolute;
-width: 375px;
-height: 77px;
+width: 1024px;
+height: 140px;
 }
+
 .m2{
-  top:737px
+  top:1226px
 }
+
 .menu nav{
   
   display: flex;
@@ -204,28 +231,27 @@ height: 77px;
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  gap: 42px;
+  gap: 200px;
   
   position: absolute;
   width: 325px;
   height: 32px;
-  left: 25px;
-  top: 16px;
-}
-.menu svg{
-  width: 36px;
-  height: 36px;
+  left: 30px;
+  top: 55px;
 }
 
-#favs{
-  width: 375px;
-  height: 812px;
-  margin-top:-8px;
-  margin-left:-8px;
-  background:rgb(243, 243, 243);
-  opacity: 100%;
-  border-radius:50px;
+.menu svg{
+  width: 88px;
+  height: 88px;
 }
+
+.main2{
+  width: 1024px;
+  height: 1226px;
+  background:rgb(255, 255, 255);
+  opacity: 100%;
+}
+
 .back{
   display: flex;
 flex-direction: row;
@@ -237,56 +263,58 @@ height: 32px;
 left: 24px;
 top: 62px;
 }
+.main2 h4{
+  position: absolute;
+  text-align: center;
+  margin-right: 25px;
+  margin-top: 15px;
+  font-size: 40px;
+  color: #b1b1b1;
+}
+
 .main2{
-  position: relative;
-  left: 24px;
-  width: 327px;
-  height: 730px;
-  text-align: left;
+  display: grid ;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  position: absolute;
+  left: 68px;
+  width: 900px;
+  height: 1160px;
+  text-align: center;
   font-family: 'Tw Cen MT';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  background: #754e4e9f;
+  background: #b1b1b1;
   overflow-y:scroll;
   white-space: nowrap;
 }
-div.content2{
-  display: inline-block;
-  position: relative;
-  margin-top:-18px;
-  margin-bottom: 32px;
-  padding-left: 2.2px;
-  padding-right: 2.2px;
-  width: 156px;
-  height: 182px;
-  border-radius: 8px;
-  background: rgb(193, 248, 255);
+.main2 h3{
+  position: absolute;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 15px;
+  font-size: 40px;
+  color: #000000;
 }
 
-div.content2 img{
-  position: relative;
-  top: 2px;
-  width: 150px;
-  height: 131px;
-  padding-left: 2.5px;
-  padding-right: 2.5px;
 
-  border-radius: 8px;
-}
+
 .publi{
   position: absolute;
   top: 670px;
   left: 310px;
-
 }
+
 .publi svg{
   width: 64px;
   height: 64px;
 }
+
 .inpu{
   width: 327px;
 }
+
 #misi{
   width: 375px;
   height: 812px;
@@ -307,5 +335,4 @@ div.content2 img{
   border-radius:50px;
   display: flex;
   align-items: center;
-  
 }
