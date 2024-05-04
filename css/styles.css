@@ -156,7 +156,7 @@ top: 52px;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  background: #8383839f;
+  background: #e6e6e6;
   overflow-y:scroll;
   white-space: nowrap;
 }
@@ -193,7 +193,6 @@ div.content img{
   position: relative;
   top: -5px;
   
-
   width: 360px;
   height: 140px;
   border-radius: 8px;
@@ -225,7 +224,6 @@ height: 140px;
 }
 
 .menu nav{
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -263,13 +261,14 @@ height: 32px;
 left: 24px;
 top: 62px;
 }
+
 .main2 h4{
   position: absolute;
   text-align: center;
   margin-right: 25px;
   margin-top: 15px;
   font-size: 40px;
-  color: #b1b1b1;
+  color: #e6e6e6;
 }
 
 .main2{
@@ -285,10 +284,11 @@ top: 62px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  background: #b1b1b1;
+  background: #e6e6e6;
   overflow-y:scroll;
   white-space: nowrap;
 }
+
 .main2 h3{
   position: absolute;
   text-align: center;
@@ -298,41 +298,58 @@ top: 62px;
   color: #000000;
 }
 
-
-
 .publi{
   position: absolute;
-  top: 670px;
-  left: 310px;
+  top: 990px;
+  left: 710px;
 }
 
 .publi svg{
-  width: 64px;
-  height: 64px;
+  width: 150px;
+  height: 150px;
 }
 
 .inpu{
-  width: 327px;
+  width: 480px;
+  background-color: #dddddd;
+  
 }
 
 #misi{
-  width: 375px;
-  height: 812px;
-  margin-top:-8px;
-  margin-left:-8px;
-  background:rgb(243, 243, 243);
+  position: relative;
+  width: 1024px;
+  height: 1226px;
+  background:rgb(255, 255, 255);
   opacity: 100%;
-  border-radius:50px;
+  
 }
 
-#fade{
-  width: 375px;
-  height: 812px;
-  margin-top:-8px;
-  margin-left:-8px;
-  background:rgb(243, 243, 243);
-  opacity: 100%;
-  border-radius:50px;
-  display: flex;
-  align-items: center;
+#misi h1{
+  position: absolute;
+  text-align: center;
+  margin-left: 36px;
+  margin-top: 15px;
+  font-size: 40px;
+  color: #000000;
 }
+
+#misi p{
+  position: absolute;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 70px;
+  font-size: 22px;
+  color: #000000;
+}
+
+#misi input{
+  position: absolute;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 130px;
+  font-size: 20px;
+  color: #ffffff;
+
+}
+
+
