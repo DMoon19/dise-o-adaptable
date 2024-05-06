@@ -464,6 +464,84 @@ div.content2 img{
   justify-content: center;
   align-items: center;
 }
+
+div.pencilIcon img{
+  position:relative;
+  
+  
+  top: 5px;
+  left: -400px; 
+  border-radius: 0px;
+
+  width: 14px;
+  height: 18px;
+}
+
+div.pencilText {
+  position:relative;
+  display: inherit;
+  top: -18px;
+  left: -330px;
+  font-family:'aileronregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+div.tittle {
+  position:relative;
+  display: inherit;
+  top: -18px;
+  left: -250px;
+  font-family:'aileronbold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+div.by {
+  position:relative;
+  display: inherit;
+  top: -72px;
+  left: 36px;
+  font-family:'aileronregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #eeac60  ;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+div.autor {
+  position:relative;
+  display: inherit;
+  top: -97px;
+  left: 116px;
+  font-family:'aileronregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
 .main2 h4{
   position: absolute;
   text-align: center;
