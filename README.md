@@ -2,7 +2,6 @@
 Repo Proyecto de desarrollo web.
 Recefacil
 
-<img src="https://recetinas.com/wp-content/uploads/2022/02/comidas-faciles.jpg">
 
 ## Integrantes
 - Jesus Daniel Jurado Hernandez
