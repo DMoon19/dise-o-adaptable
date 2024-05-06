@@ -1,9 +1,127 @@
+@font-face {
+  font-family: 'aileronblack_italic';
+  src: url('../fonts/AileronFontKit/aileron-blackitalic-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-blackitalic-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronblack';
+  src: url('../fonts/AileronFontKit/aileron-black-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-black-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronbold_italic';
+  src: url('../fonts/AileronFontKit/aileron-bolditalic-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/ai leron-bolditalic-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronbold';
+  src: url('../fonts/AileronFontKit/aileron-bold-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-bold-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronitalic';
+  src: url('../fonts/AileronFontKit/aileron-italic-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-italic-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronlight_italic';
+  src: url('../fonts/AileronFontKit/aileron-lightitalic-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-lightitalic-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronlight';
+  src: url('../fonts/AileronFontKit/aileron-light-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-light-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronregular';
+  src: url('../fonts/AileronFontKit/aileron-regular-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-regular-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronsemibold_italic';
+  src: url('../fonts/AileronFontKit/aileron-semibolditalic-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-semibolditalic-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aileronsemibold';
+  src: url('../fonts/AileronFontKit/aileron-semibold-webfont-webfont.woff2') format('woff2'),
+       url('../fonts/AileronFontKit/aileron-semibold-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 #home{
   background:url(https://res.cloudinary.com/dhchnmb6i/image/upload/v1710344249/xhjioegnpxvozjs2gyqd.png);
-  background:rgb(255, 255, 255);
+  background:#ffffff;
   margin:0 ;
   opacity: 100%;
 }
+
 
 *{
   margin: 0;
@@ -16,14 +134,13 @@
 
 .titulo{
 /* Hola Xaca */
-
+font-family:'aileronregular';
 position: absolute;
 width: 216px;
 height: 16px;
 left: 88px;
 top: 60px;
 
-font-family: 'Tw Cen MT';
 font-style: normal;
 font-weight: 400;
 font-size: 36px;
@@ -97,9 +214,9 @@ top: 52px;
 
 .item-name{
   color: #000000;
- text-align: center;
+  text-align: center;
   margin: auto;
-  font-family: 'Tw Cen MT';
+  font-family:'aileronregular';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -126,7 +243,7 @@ top: 52px;
   border-radius: 24px;
 
   text-align: center;
-  font-family: 'Tw Cen MT';
+  font-family: 'aileronregular';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -137,26 +254,24 @@ top: 52px;
   top: 188px;
   height: 40px;
   width: 928px;
-  background:rgb(255, 239, 219);
+  background:#ffefdb;
   z-index: 3;
 }
 
 .main{
   display: grid;
+  padding: 10px;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
   position: absolute;
   top: 272px;
   left: 68px;
   border-radius: 24px;
   width: 900px;
   height: 900px;
+  align-items: center;
   text-align: center;
-  font-family: 'Tw Cen MT';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  background: #e6e6e6;
+  background: #eeeeee;
   overflow-y:scroll;
   white-space: nowrap;
 }
@@ -165,36 +280,110 @@ top: 52px;
   text-align: left;
   margin-left: 15px;
   margin-top: 15px;
-  font-size: 46px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+  font-family: 'aileronbold_italic';
 }
 
 .main h4{
   text-align: right;
   margin-right: 25px;
   margin-top: 15px;
-  font-size: 36px;
-  color: #3a3a3a;
+  font-size: 32px;
+  font-style: normal;
+  color: #000000;
+  font-family: 'aileronlight';
+
 }
 
 div.content{
   top: 50px;
-  margin-left: 10px;
-  margin-top: 20px;
   padding: 10px;
   justify-items: center;
   align-items: center;
-  width: 370px;
-  height: 182px;
-  border-radius: 8px;
-  background: rgb(255, 255, 255);
+  width: 412px;
+  height: 280px;
+  border-radius: 24px;
+  background: #ffffff;
 }
 
 div.content img{
   position: relative;
-  top: -5px;
+  width: 400px;
+  height: 200px;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+}
+div.content2{
+  top: 100px;
+  margin-left: 25px;
+  margin-top: 60px;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+  width: 390px;
+  height: 150px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+div.content2 img{
+  position: relative;
+  top: 10px;
   
-  width: 360px;
-  height: 140px;
+  width: 820px;
+  height: 120px;
+
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+div.content3{
+  top: 100px;
+  margin-left: 25px;
+  margin-top: 60px;
+  padding: 10px;
+
+  justify-items: center;
+  align-items: center;
+  width: 400px;
+  height: 182px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+div.content3 img{
+  position: relative;
+  top: 10px;
+  
+  width: 390px;
+  height: 150px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+div.content4{
+  top: 100px;
+  margin-left: 25px;
+  margin-top: 60px;
+  padding: 10px;
+
+  justify-items: center;
+  align-items: center;
+  width: 390px;
+  height: 150px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+div.content4 img{
+  position: relative;
+  top: 10px;
+  
+  width: 390px;
+  height: 150px;
   border-radius: 8px;
   justify-content: center;
   align-items: center;
@@ -268,23 +457,20 @@ top: 62px;
   margin-right: 25px;
   margin-top: 15px;
   font-size: 40px;
-  color: #e6e6e6;
+  color: #eeeeee;
 }
 
 .main2{
-  display: grid ;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
   position: absolute;
   left: 68px;
   width: 900px;
   height: 1160px;
   text-align: center;
-  font-family: 'Tw Cen MT';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  background: #e6e6e6;
+  background: #eeeeee;
   overflow-y:scroll;
   white-space: nowrap;
 }
