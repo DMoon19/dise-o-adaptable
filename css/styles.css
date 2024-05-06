@@ -306,12 +306,14 @@ div.proteintext {
   position:relative;
   display: inherit;
   top: -18px;
-  left: 36px;
+  left: 214px;
   font-family:'aileronregular';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
+  width: 60px;
+  height: auto;
   
   justify-content: center;
   align-items: center;
@@ -335,10 +337,12 @@ div.carbon img{
 div.carbontext {
   position: relative;
   font-family:'aileronregular';
+  width: 60px;
+  height: auto;
   
 
   top: -69px;
-  left: 110px;
+  left: 284px;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -360,9 +364,11 @@ div.hidrogen img{
 div.hidrogentext {
   position: relative;
   font-family:'aileronregular';
+  width: 60px;
+  height: auto;
 
   top: -109px;
-  left: 178px;
+  left: 356px;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -396,9 +402,11 @@ div.time img {
 div.timeText {
   position: relative;
   font-family:'aileronregular';
+  width: 60px;
+  height: auto;
 
   top: -173px;
-  left: -170px;
+  left: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -419,9 +427,11 @@ div.carbs img {
 div.carbstext {
   position: relative  ;
   font-family:'aileronregular';
+  width: 60px;
+  height: auto;
 
   top: -213px;
-  left: -102px;
+  left: 78px;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -432,9 +442,11 @@ div.plateName {
   font-family: 'aileronbold';
   font-weight: 400;
   font-size: 16px;
+  width: 60px;
+  height: auto;
 
   top: -205px;
-  left: -130px;
+  left: 20px;
   justify-content: left;
   align-items: center;
   border-radius: 0px;
@@ -584,11 +596,11 @@ div.autor {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 12px;
   position: absolute;
-  top: 272px;
+  top: 60px;
   left: 68px;
   border-radius: 24px;
   width: 900px;
-  height: 900px;
+  height: 1100px;
   align-items: center;
   text-align: center;
   background: #eeeeee;
@@ -647,12 +659,14 @@ div.proteintext3 {
   position:relative;
   display: inherit;
   top: -18px;
-  left: 36px;
+  left: 211px;
   font-family:'aileronregular';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
+  width: 60px;
+  height: auto;
   
   justify-content: center;
   align-items: center;
@@ -676,10 +690,12 @@ div.carbon3 img{
 div.carbontext3 {
   position: relative;
   font-family:'aileronregular';
+  width: 60px;
+  height: auto;
   
 
   top: -69px;
-  left: 110px;
+  left: 286px;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -701,9 +717,11 @@ div.hidrogen3 img{
 div.hidrogentext3 {
   position: relative;
   font-family:'aileronregular';
+  width: 40px;
+  height: auto;
 
   top: -109px;
-  left: 178px;
+  left: 364px;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -737,6 +755,8 @@ div.time3 img {
 div.timeText3 {
   position: relative;
   font-family:'aileronregular';
+  width: 1;
+  height: 1;
 
   top: -173px;
   left: -170px;
@@ -760,6 +780,8 @@ div.carbs3 img {
 div.carbstext3 {
   position: relative  ;
   font-family:'aileronregular';
+  width: 1;
+  height: 1;
 
   top: -213px;
   left: -102px;
@@ -771,6 +793,8 @@ div.carbstext3 {
 div.plateName3 {
   position: relative  ;
   font-family: 'aileronbold';
+  width: 1;
+  height: 1;
   font-weight: 400;
   font-size: 16px;
 
@@ -842,8 +866,10 @@ height: 140px;
 }
 
 .menu svg{
+  display: flex;
   width: 88px;
   height: 88px;
+  top: 120;
 }
 
 
@@ -860,14 +886,16 @@ top: 62px;
 }
 
 .publi{
-  position: absolute;
-  top: 990px;
-  left: 710px;
+  display:flex;
+  position: fixed;
+  top: 1050px;
+  left: 820px;
 }
 
 .publi svg{
   width: 150px;
   height: 150px;
+  
 }
 
 .inpu{
