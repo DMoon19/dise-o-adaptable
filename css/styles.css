@@ -450,7 +450,7 @@ div.content2{
   width: 820px;
   height: 220px;
   border-radius: 8px;
-  background: #eeeeee;
+  background: #ffffff;
 }
 
 div.content2 img{
@@ -563,7 +563,7 @@ div.autor {
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  background: #6e2727;
+  background: #eeeeee;
   overflow-y:scroll;
   white-space: nowrap;
 }
@@ -578,30 +578,211 @@ div.autor {
   font-family: 'aileronbold_italic';
 }
 
-div.content3{
-  top: 100px;
-  margin-left: 25px;
-  margin-top: 60px;
+.mainRecipes{
+  display: grid;
   padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+  position: absolute;
+  top: 272px;
+  left: 68px;
+  border-radius: 24px;
+  width: 900px;
+  height: 900px;
+  align-items: center;
+  text-align: center;
+  background: #eeeeee;
+  overflow-y:scroll;
+  
+}
 
+div.content3{
+  top: 50px;
+  padding: 10px;
   justify-items: center;
   align-items: center;
-  width: 400px;
-  height: 182px;
-  border-radius: 8px;
+  width: 416px;
+  height: 280px;
+  border-radius: 24px;
   background: #ffffff;
+}
+.mainRecipes h4{
+  color: #eeeeee;
+
+}
+.mainRecipes h3{
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+  font-family: 'aileronbold_italic';
 }
 
 div.content3 img{
   position: relative;
-  top: 10px;
-  
-  width: 390px;
-  height: 150px;
-  border-radius: 8px;
+  width: 400px;
+  height: 200px;
+  border-radius: 24px;
   justify-content: center;
   align-items: center;
 }
+
+
+div.protein3  img {
+  position:relative;
+  
+  
+  top: 5px;
+  left: 10px; 
+  align-items: center;
+  border-radius: 0px;
+
+  width: 14px;
+  height: 18px;
+}
+
+div.proteintext3 {
+  position:relative;
+  display: inherit;
+  top: -18px;
+  left: 36px;
+  font-family:'aileronregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+div.carbon3 img{
+  position: relative;
+  
+  top: -48px;
+  left: 82px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+
+
+  width: 28px;
+  height: 28px;
+}
+
+div.carbontext3 {
+  position: relative;
+  font-family:'aileronregular';
+  
+
+  top: -69px;
+  left: 110px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+div.hidrogen3 img{
+  position: relative  ;
+  top: -94px;
+  left: 150px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+
+
+  width: 14px;
+  height: 18px;
+}
+
+div.hidrogentext3 {
+  position: relative;
+  font-family:'aileronregular';
+
+  top: -109px;
+  left: 178px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+div.fav3 img {
+  position: relative;
+  
+  top: -75px;
+  left: -190px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+
+  width: 18px;
+  height: 18px;
+}
+
+div.time3 img {
+  position: relative;
+  top: -154px;
+  left: -190px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+
+  width: 18px;
+  height: 18px;
+}
+
+div.timeText3 {
+  position: relative;
+  font-family:'aileronregular';
+
+  top: -173px;
+  left: -170px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+div.carbs3 img {
+  position: relative;
+  top: -194px;
+  left: -140px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+
+  width: 14px;
+  height: 18px;
+}
+
+div.carbstext3 {
+  position: relative  ;
+  font-family:'aileronregular';
+
+  top: -213px;
+  left: -102px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+div.plateName3 {
+  position: relative  ;
+  font-family: 'aileronbold';
+  font-weight: 400;
+  font-size: 16px;
+
+  top: -205px;
+  left: -130px;
+  justify-content: left;
+  align-items: center;
+  border-radius: 0px;
+}
+
+
+
 div.content4{
   top: 100px;
   margin-left: 25px;
@@ -633,11 +814,6 @@ div.content4 img{
   border-radius: 30px;
 }
 
-.cont3{
-  position: absolute;
-  top: 30px;
-  border-radius: 30px;
-}
 
 .menu{
   background:rgb(0, 0, 0);
@@ -670,12 +846,6 @@ height: 140px;
   height: 88px;
 }
 
-.main2{
-  width: 1024px;
-  height: 1226px;
-  background:rgb(255, 255, 255);
-  opacity: 100%;
-}
 
 .back{
   display: flex;
