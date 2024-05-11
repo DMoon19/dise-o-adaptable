@@ -272,15 +272,46 @@ top: 52px;
 div.content{
   padding: 10px;
   justify-items: center;
+  min-height: 300px;
   align-items: center;
+  display: grid;
+  grid-template-areas: "container1 container1"
+  "container2 container3";
+  grid-template-rows: 200px 100px;
+  grid-template-columns: 420px 210px;
+                      
+
+  
+
   width: 95%;
   height: 60%;
   border-radius: 24px;
   background: #ffffff;
 }
+div.content container1{
+  display: flex;
+  background: #000;
+}
+div.content container2{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 
-div.content img{
-  position: relative;
+}
+div.content container3{
+
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+div.container foodImage{
+  border-radius: 20px;
+
+  grid-area: image;
   width: 400px;
   height: 200px;
   border-radius: 24px;
@@ -289,11 +320,8 @@ div.content img{
 }
 
 div.protein img{
-  position:relative;
+  grid-area: protein;
   
-  
-  top: 5px;
-  left: 10px; 
   align-items: center;
   border-radius: 0px;
 
@@ -302,28 +330,23 @@ div.protein img{
 }
 
 div.proteintext {
-  position:relative;
-  display: inherit;
-  top: -18px;
-  left: 214px;
+  grid-area: proteinText;
+
+  
   font-family:'aileronregular';
   font-style: normal;
+  width:fit-content;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
-  width: 60px;
   height: auto;
   
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px;
 }
 
-div.carbon img{
-  position: relative;
+div.calcium img{
+  grid-area: calcium;
   
-  top: -48px;
-  left: 82px;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -333,24 +356,23 @@ div.carbon img{
   height: 28px;
 }
 
-div.carbontext {
-  position: relative;
-  font-family:'aileronregular';
-  width: 60px;
-  height: auto;
-  
+div.calciumtext {
+  grid-area: calciumText;
 
-  top: -69px;
-  left: 284px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px;
+  font-family:'aileronregular';
+  font-style: normal;
+  width:fit-content;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  height: auto;
 }
 
-div.hidrogen img{
-  position: relative  ;
-  top: -94px;
-  left: 150px;
+div.iron img{
+  grid-area: iron;
+
+  
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -360,24 +382,24 @@ div.hidrogen img{
   height: 18px;
 }
 
-div.hidrogentext {
-  position: relative;
-  font-family:'aileronregular';
-  width: 60px;
-  height: auto;
+div.irontext {
+  grid-area: ironText;
 
-  top: -109px;
-  left: 356px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px;
+  font-family:'aileronregular';
+  font-style: normal;
+  width:fit-content;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  height: auto;
 }
 
 div.fav img {
-  position: relative;
+  grid-area: favourite;
   
-  top: -75px;
-  left: -190px;
+  width:auto;
+
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -387,9 +409,9 @@ div.fav img {
 }
 
 div.time img {
-  position: relative;
-  top: -154px;
-  left: -190px;
+  grid-area: time;
+
+  
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -399,22 +421,24 @@ div.time img {
 }
 
 div.timeText {
-  position: relative;
-  font-family:'aileronregular';
-  width: 60px;
-  height: auto;
+  grid-area: timeText;
 
-  top: -173px;
-  left: 10px;
+  font-family:'aileronregular';
+  font-style: normal;
+  width:fit-content;
   justify-content: center;
   align-items: center;
-  border-radius: 0px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  height: auto;
 }
 
 div.carbs img {
-  position: relative;
-  top: -194px;
-  left: -140px;
+  grid-area: carbs;
+
+  
   justify-content: center;
   align-items: center;
   border-radius: 0px;
@@ -424,31 +448,29 @@ div.carbs img {
 }
 
 div.carbstext {
-  position: relative  ;
-  font-family:'aileronregular';
-  width: 60px;
-  height: auto;
+  grid-area: carbsText;
 
-  top: -213px;
-  left: 78px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px;
+  font-family:'aileronregular';
+  font-style: normal;
+  width:fit-content;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  height: auto;
 }
 
 div.plateName {
-  position: relative  ;
+  grid-area: plateName;
+  
   font-family: 'aileronbold';
+  font-style: normal;
+  width: auto;
+
   font-weight: 400;
   font-size: 16px;
-  width: 60px;
+  line-height: 25px;
   height: auto;
-
-  top: -205px;
-  left: 20px;
-  justify-content: left;
-  align-items: center;
-  border-radius: 0px;
 }
 
 div.content2{
@@ -672,7 +694,7 @@ div.proteintext3 {
   border-radius: 0px;
 }
 
-div.carbon3 img{
+div.calcium3 img{
   position: relative;
   
   top: -48px;
@@ -686,7 +708,7 @@ div.carbon3 img{
   height: 28px;
 }
 
-div.carbontext3 {
+div.calciumtext3 {
   position: relative;
   font-family:'aileronregular';
   width: 60px;
@@ -700,7 +722,7 @@ div.carbontext3 {
   border-radius: 0px;
 }
 
-div.hidrogen3 img{
+div.iron3 img{
   position: relative  ;
   top: -94px;
   left: 150px;
@@ -713,7 +735,7 @@ div.hidrogen3 img{
   height: 18px;
 }
 
-div.hidrogentext3 {
+div.irontext3 {
   position: relative;
   font-family:'aileronregular';
   width: 40px;
@@ -842,14 +864,14 @@ div.content4 img{
   background:rgb(0, 0, 0);
   position: absolute;
   margin: auto;
-  display: flex;
+  
   justify-content: center;
   
-  width: 70%;
-  height: 10%;
-  margin-top: 120%;
-  margin-left: 15%;
+  width: 680px;
+  height: 140px;
   border-radius: 35px;
+  margin-top: 1224px;
+  margin-left: 172px;
 
 
 }
@@ -861,6 +883,8 @@ div.content4 img{
   align-items: center;
   padding: 0px;
   gap: 80px;
+  margin-left: 5%;
+  
   
   position: absolute;
   width: 90%;
@@ -871,20 +895,20 @@ div.content4 img{
   display: flex;
   width: 88px;
   height: 88px;
-  top: 120;
+  
 }
 
 
 .back{
   display: flex;
-flex-direction: row;
-align-items: center;
+  flex-direction: row;
+  align-items: center;
 
-position: absolute;
-width: 32px;
-height: 32px;
-left: 24px;
-top: 62px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 24px;
+  top: 62px;
 }
 
 .publi{
